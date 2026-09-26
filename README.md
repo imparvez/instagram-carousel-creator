@@ -21,11 +21,28 @@ The Skill is intentionally generic. It does not hardcode an Instagram account, b
 
 ```text
 instagram-carousel-creator/
-├── SKILL.md
+├── plugin.json
 ├── README.md
-└── references/
-    └── visual-design-system.md
+├── LICENSE
+├── .gitignore
+├── skills/
+│   └── instagram-carousel-creator/
+│       ├── SKILL.md
+│       └── references/
+│           └── visual-design-system.md
+└── examples/
+    ├── basic.md
+    ├── branded.md
+    └── visual-reference.md
 ```
+
+## Installation
+
+This repository is a skills-only portable Agent Plugins package for ChatGPT and Codex. Keep the root `plugin.json` and the complete `skills/` directory together when distributing the plugin. Skills are discovered automatically from `skills/`.
+
+Follow the [OpenAI plugin installation and testing guidance](https://developers.openai.com/plugins/quickstart) for the options available in your product or workspace. This repository is not a published directory listing.
+
+For a standalone Skill installation in a compatible client, use `skills/instagram-carousel-creator/`, including its `references/` directory.
 
 ## Example
 
@@ -74,7 +91,7 @@ For example:
 
 ```bash
 python3 ~/.codex/skills/.system/skill-creator/scripts/quick_validate.py \
-  /path/to/instagram-carousel-creator
+  /path/to/instagram-carousel-creator/skills/instagram-carousel-creator
 ```
 
 Then test runtime behaviour with both:

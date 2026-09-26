@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "instagram-carousel-creator",
+  "version": "0.1.0",
+  "description": "Create visually designed educational Instagram carousels from a topic, with optional branding, audience targeting and visual style references.",
+  "author": {
+    "name": "Parvez Alam Shaikh"
+  },
+  "repository": "https://github.com/imparvez/instagram-carousel-creator",
+  "license": "MIT",
+  "keywords": [
+    "instagram",
+    "carousel",
+    "content-creation",
+    "education",
+    "social-media",
+    "visual-storytelling"
+  ]
+}
