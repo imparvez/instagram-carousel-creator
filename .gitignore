@@ -4,3 +4,7 @@
 *.zip
 
 output
+
+# Local OpenAI plugin testing
+.agents/
+plugins/
